@@ -1,0 +1,9 @@
+1. Mac显示隐藏文件夹
+defaults write com.apple.finder AppleShowAllFiles true
+killall Finder %刷新Finder文件夹
+
+2.Mac关闭显示隐藏文件夹
+defaults write com.apple.finder AppleShowAllFiles false
+killall Finder
+
+这是一个测试文件夹，没意义。
